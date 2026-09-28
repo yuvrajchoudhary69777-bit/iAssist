@@ -1,0 +1,15 @@
+{
+    "name": "working_iassist",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "frontend:install": "cd frontend && npm install",
+      "frontend:dev": "cd frontend && npm run dev",
+      "frontend:build": "cd frontend && npm run build",
+      "frontend:start": "cd frontend && npm run start",
+      "python-server": "cd server && python3 server.py",
+      "dev:all": "cd frontend && npm run dev:all",
+      "setup": "cd frontend && npm install"
+    }
+  }
+
